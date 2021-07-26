@@ -6790,3 +6790,11 @@ body:not(.ms-settings-open) .ms-settings-toggle:hover{
 .company-logo{
   border: 1px solid rgba( 0, 0, 0, 0.1 );
 }
+
+.ms-panel{
+  border-radius: 10px;
+}
+
+.nav-tabs li a {
+  text-transform: uppercase;
+}

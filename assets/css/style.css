@@ -4945,7 +4945,7 @@ a.ms-g-plus,
 
 .ms-profile-overview{
   position: relative;
-  height: 500px;
+  /* height: 500px; */
   background-color: #fff;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 1px 6px 1px rgba(69,65,78, 0.1);
@@ -4956,11 +4956,11 @@ a.ms-g-plus,
   position: relative;
   display: flex;
   align-items: flex-end;
-  background-image: url('../img/wide/wide-5.jpg');
+  
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 87%;
+  height: 40%;
   width: 100%;
   padding: 1.5rem;
   padding-bottom: 0;
@@ -4977,10 +4977,11 @@ a.ms-g-plus,
   z-index: -1;
 }
 .ms-profile-cover img{
-  width: 200px;
+  width: 100px;
   margin-bottom: -35px;
   border: 3px solid #fff;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 .ms-profile-user-info,
 .ms-profile-user-buttons{
@@ -6797,4 +6798,33 @@ body:not(.ms-settings-open) .ms-settings-toggle:hover{
 
 .nav-tabs li a {
   text-transform: uppercase;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.get-in-touch span {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.get-in-touch span i {
+  color: #83ccaf;
+  margin-right: 5px;
+}
+
+.files i {
+  font-size: 15px;
+  padding-right: 30px !important;
+  color: #83ccaf;
+}
+
+/* .files a {
+  font-size: 20px;
+} */
+
+.text-center {
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 (function($) {
   'use strict';
 
-  /*========= Mystic Framework ===========*/
+  /*========= Framework ===========*/
   var MysticFramework = (function(){
 
     /* Initialize all required functions */

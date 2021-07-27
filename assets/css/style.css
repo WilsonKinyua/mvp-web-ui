@@ -4310,9 +4310,9 @@ border: 0;
   border: 1px solid #eb025d;
   color: #eb025d;
 }
-.ms-star-rating.misc-number{
+/* .ms-star-rating.misc-number{
 
-}
+} */
 .ms-star-rating.misc-number .ms-rating-item{
   margin: 0;
   border-radius: 0;
@@ -6828,3 +6828,13 @@ body:not(.ms-settings-open) .ms-settings-toggle:hover{
 .text-center {
   text-align: center;
 }
+
+.card-img-top {
+  /* height: 100px; */
+  /* padding: 10px; */
+}
+
+/* .campany-card-logo img {
+  height: 120px;
+  border-radius: 50%;
+} */
